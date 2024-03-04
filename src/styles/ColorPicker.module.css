@@ -1,0 +1,11 @@
+.colorLabel {
+  display: inline-block;
+  width: 50px;
+  text-align: left;
+}
+
+.colorSwatch {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
