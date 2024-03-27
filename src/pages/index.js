@@ -56,6 +56,7 @@ export default function ColorPicker() {
         setName(colorInfo.name);
       }
     }, 250);
+
     return () => {
       clearTimeout(queryTimeout);
     };

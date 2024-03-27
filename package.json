@@ -1,12 +1,8 @@
 {
-  "name": "practical-fetch",
+  "name": "Color-Picker",
   "version": "0.1.0",
   "private": true,
   "author": "Frank Bautista <email@middlebury.edu>",
-  "contributors": [
-    "Christopher Andrews <candrews@middlebury.edu>",
-    "Michael Linderman <mlinderman@middlebury.edu>"
-  ],
   "license": "Apache-2.0",
   "scripts": {
     "dev": "next dev",
@@ -14,8 +10,7 @@
     "start": "next start",
     "test": "jest",
     "lint": "eslint .",
-    "prepare": "husky",
-    "gradescope": "zip -r gradescope.zip setup.sh run_autograder assessment"
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "13.5.6",
